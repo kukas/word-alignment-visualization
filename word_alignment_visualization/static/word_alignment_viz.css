@@ -1,0 +1,29 @@
+.sentence {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.originalSentence {
+    margin-bottom: 3em;
+}
+
+.word {
+    padding: 5px;
+    margin: 2px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.alignmentWidget {
+    position: relative;
+}
+
+.alignmentLines {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+}

@@ -1,6 +1,6 @@
 # Word Alignment Visualization
 
-![Example Image](link_to_example_image.png)
+![Screenshot of the word alignment visualization](example.png)
 
 ## Overview
 

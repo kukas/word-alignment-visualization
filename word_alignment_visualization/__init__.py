@@ -1,0 +1,1 @@
+from .show_alignment import show_word_alignments
