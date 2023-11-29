@@ -14,12 +14,6 @@ def show_word_alignments(src_tokens, tgt_tokens, alignment):
     src_tokens = json.dumps(src_tokens)
     tgt_tokens = json.dumps(tgt_tokens)
     alignment = json.dumps(alignment)
-    # display(HTML(
-    #     f"""<style>{css_source}</style>"""
-    # ))
-    # display(Javascript(js_source+"\n"+f"show_word_alignments(element, {src_tokens}, {tgt_tokens}, {alignment})"))
-    # return Javascript(f"show_word_alignments(element, {src_tokens}, {tgt_tokens}, {alignment})")
-    
     random_id = "id_" + str(random.randint(0, 1000000))
     return HTML(
         f"""
@@ -31,4 +25,3 @@ def show_word_alignments(src_tokens, tgt_tokens, alignment):
         </script>
         """
     )
-    # display(Javascript(js_source+"\n"+f"show_word_alignments(element, {src_tokens}, {tgt_tokens}, {alignment})"))

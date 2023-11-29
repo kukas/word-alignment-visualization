@@ -22,17 +22,6 @@ function show_word_alignments(element, originalSentence, translationSentence, al
     alignmentWidgetDiv.appendChild(alignmentLinesSvg);
 
     // Append the alignmentWidget container to the main element
-    // element.append(alignmentWidgetDiv);
-    // var ele = document.currentScript;   //get current script element
-    // ele.parentNode.insertBefore(alignmentWidgetDiv, ele);  //append the span before the script
-    // console.log("helloooo")
-    // console.log("what")
-    // console.log(document.currentScript.parentElement)
-    // console.log(document.currentScript.parentElement.parentElement)
-    // document.currentScript.insertAdjacentElement(
-    //     'afterend',
-    //     alignmentWidgetDiv
-    // )
     element.appendChild(alignmentWidgetDiv);
 
     // Populate original sentence
