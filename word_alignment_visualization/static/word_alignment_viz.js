@@ -57,8 +57,8 @@ function show_word_alignments(element, originalSentence, translationSentence, al
 
         // Add event listeners for hover effect
         const handleMouseover = () => {
-            originalWordBox.style.backgroundColor = "#f0f0f0";
-            translationWordBox.style.backgroundColor = "#f0f0f0";
+            originalWordBox.style.backgroundColor = "#fff45c";
+            translationWordBox.style.backgroundColor = "#fff45c";
             line.setAttribute("stroke", "#ff0000");
         };
 
